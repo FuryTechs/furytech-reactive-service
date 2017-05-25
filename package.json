@@ -1,0 +1,41 @@
+{
+  "name": "furytech-reactive-service",
+  "version": "1.0.4",
+  "description": "FuryTechs RXJS reactive services",
+  "main": "src/index.ts",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FuryTechs/furytech-reactive-service.git"
+  },
+  "keywords": [
+    "furytechs",
+    "reactive",
+    "rxjs"
+  ],
+  "author": "FuryTechs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FuryTechs/furytech-reactive-service/issues"
+  },
+  "homepage": "https://github.com/FuryTechs/furytech-reactive-service#readme",
+  "dependencies": {
+    "rxjs": "^5.4.0",
+    "typescript": "^2.3.3"
+  },
+  "devDependencies": {
+    "jasmine-core": "^2.6.2",
+    "karma": "^1.7.0",
+    "karma-chrome-launcher": "^2.1.1",
+    "karma-coverage": "^1.1.1",
+    "karma-jasmine": "^1.1.0",
+    "karma-mocha-reporter": "^2.2.3",
+    "karma-remap-coverage": "^0.1.4",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "^2.0.3",
+    "protractor": "^5.1.2",
+    "ts-node": "^3.0.4",
+    "tslib": "^1.7.0",
+    "tslint": "~4.5.1"
+  }
+}
