@@ -41,3 +41,5 @@ typings
 
 build-test
 /.vscode/symbols.json
+
+dist/

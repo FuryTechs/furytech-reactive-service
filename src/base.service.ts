@@ -1,8 +1,4 @@
-import {
-  ReplaySubject,
-  Observable,
-  BehaviorSubject
-} from 'rxjs';
+import { ReplaySubject, Observable, BehaviorSubject } from 'rxjs/Rx';
 
 export abstract class BaseService<T> {
 
@@ -133,14 +129,23 @@ export abstract class BaseService<T> {
     return this._dataSource.asObservable();
   }
 
+  /**
+   * @return {Observable<T[]>}
+   */
   public get createSource(): Observable<T> {
     return this._createSource.asObservable();
   }
 
+  /**
+   * @return {Observable<T[]>}
+   */
   public get updateSource(): Observable<T> {
     return this._updateSource.asObservable();
   }
 
+  /**
+   * @return {Observable<T[]>}
+   */
   protected get deleteSource(): Observable<T> {
     return this._deleteSource.asObservable();
   }
