@@ -1,6 +1,6 @@
 {
   "name": "furytech-reactive-service",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "FuryTechs RXJS reactive services",
   "main": "dist/index.js",
   "typings": "dist/index",
