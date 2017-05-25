@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/FuryTechs/furytech-reactive-service#readme",
   "dependencies": {
+    "@ionic/storage": "^2.0.1",
     "rxjs": "^5.4.0"
   },
   "devDependencies": {
